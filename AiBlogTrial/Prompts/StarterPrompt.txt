@@ -1,0 +1,24 @@
+﻿Create a Semantic Kernel–based application that generates complete blog posts using multiple AI agents. The app should implement the following agents and orchestration patterns:
+
+Agents to implement:
+• Outline Agent: Uses GPT-4 to develop a structured blog post template with sections (Title, Introduction, Main Body, Conclusion, CTA, etc.).
+• Content Generation Agent: Uses GPT-4 or GPT-3.5 to generate detailed content for each section based on the outline.
+• Editing & Proofreading Agent: Uses a fine-tuned GPT-4 model to ensure correctness, style, and coherence.
+• SEO Optimization Agent: Uses an SEO-enhanced GPT-4 model to insert target keywords, meta descriptions, and optimize content.
+• Visual Suggestions Agent: Uses GPT-4 to propose relevant image, chart, or media suggestions for the text.
+• CTA & Engagement Agent: Uses GPT-4 to craft calls-to-action and engagement prompts.
+• Image Creation Agent: Uses DALL-E 2 or Stable Diffusion to generate visuals matching the content.
+
+Orchestration Patterns:
+• Use Sequential (Pipeline) Pattern: Pass outputs from one agent to the next (e.g., outline → content generation → editing/proofreading, etc.).
+• Implement Fan-Out/Fan-In Pattern: When possible (e.g., concurrent image suggestion and text generation) run tasks in parallel and combine the results.
+• Use Chain-of-Thought Prompt Chaining to preserve context across modulated steps.
+• Consider a Composite Orchestration Coordinator that manages interdependencies and overall result consolidation.
+
+Requirements:
+• The application must be modular and scalable.
+• It should use Semantic Kernel’s infrastructure for managing and orchestrating function calls.
+• Each agent function call should be clearly defined and integrated, with a final function that returns the full, cohesive blog post (including generated text and visuals with their descriptions).
+• Include error handling and logging in the orchestration flow.
+
+Generate the complete code for this application, with comments explaining key sections and orchestration logic. Integrate necessary skeleton code for the models, function calls, and pipeline orchestration using the Semantic Kernel framework.
