@@ -1,6 +1,6 @@
 # AI-Powered Blog Post Generator
 
-A sophisticated Semantic Kernel-based application that leverages multiple AI agents to generate comprehensive, SEO-optimized blog posts with visual content suggestions.
+A Semantic Kernel-based application that leverages multiple AI agents to generate comprehensive, SEO-optimized blog posts with visual content suggestions.
 
 ## Overview
 
