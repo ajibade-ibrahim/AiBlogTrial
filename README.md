@@ -35,7 +35,7 @@ This project implements a modular blog post generation system using Microsoft's 
 
 ## Project Generation
 
-- Initial project prompt was generated using OpenAI's o3 model
+- Initial project prompt was generated using OpenAI's o3-mini model
 - Project implementation and architecture were built out using Claude Sonnet 3.5
 
 ## Requirements
